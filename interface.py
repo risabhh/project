@@ -11,7 +11,7 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Load the saved Logistic Regression model and vectorizer
-with open('final_model.pkl', 'rb') as f:
+with open('best_sentiment_model.pkl', 'rb') as f:
     best_logreg = pickle.load(f)
 
 
